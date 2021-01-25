@@ -1,0 +1,23 @@
+.logo-icon {
+  width: 2rem;
+  height: 2rem;
+  background-color: gray;
+  margin: 0 1rem;
+}
+
+.logo-text {
+  font-size: 200%;
+  flex-grow: 1;
+  margin: 0 1rem;
+}
+
+#menu {
+  padding: 1rem 1rem calc(1rem - 4px) 1rem;
+}
+
+.menu-bar {
+  width: 28px;
+  height: 4px;
+  margin-bottom: 4px;
+  background: black;
+}
