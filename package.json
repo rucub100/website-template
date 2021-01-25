@@ -1,0 +1,20 @@
+{
+  "name": "website-template",
+  "version": "1.0.0",
+  "description": "skeleton for a simple & responsive website",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "python3 -m http.server 4200 --bind 127.0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rucub100/website-template.git"
+  },
+  "author": "Ruslan Curbanov",
+  "license": "NONE",
+  "bugs": {
+    "url": "https://github.com/rucub100/website-template/issues"
+  },
+  "homepage": "https://github.com/rucub100/website-template#readme"
+}
