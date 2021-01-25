@@ -3,10 +3,12 @@
 
 <head>
     <title>My Website</title>
+    <!-- <base href="/" target="_self" /> -->
     <base href="https://rucub100.github.io/website-template/" target="_self" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="css/nav.css" />
     <script defer type="text/javascript" src="main.js"></script>
+    <script defer type="text/javascript" src="js/header-hide-onscroll.js"></script>
     <noscript>Your browser does not support JavaScript!</noscript>
     <!-- meta tags -->
     <meta name="author" content="Your Name" />
@@ -21,7 +23,7 @@
 
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header id="header" class="header">
             <div class="logo-icon"></div>
             <div class="logo-text">My Website</div>
             <nav class="navigation">
