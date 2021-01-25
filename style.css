@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* 640px / 16px/em = 40em */
+@media screen and (min-width: 40em) {
+}
+
+/* 1024px / 16px/em = 64em */
+@media screen and (min-width: 64em) {
+}
+
+/* 1280px / 16px/em = 80em */
+@media screen and (min-width: 80em) {
+}
