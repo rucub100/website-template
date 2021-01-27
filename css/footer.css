@@ -11,17 +11,17 @@
   align-self: center;
 }
 
-a,
-a:link,
-a:visited,
-a:active,
-span {
+.footer a,
+.footer a:link,
+.footer a:visited,
+.footer a:active,
+.footer span {
   text-decoration: none;
   outline: none;
   color: inherit;
 }
 
-a:hover {
+.footer a:hover {
   color: white;
 }
 

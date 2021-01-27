@@ -1,0 +1,32 @@
+.sitemap {
+  line-height: 3;
+  padding-top: 2rem;
+}
+
+.sitemap a,
+.sitemap a:link,
+.sitemap a:visited,
+.sitemap a:active,
+.sitemap span {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+.sitemap a:hover {
+  color: white;
+}
+
+.sitemap .heading {
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.sitemap .column {
+  align-self: flex-start;
+  padding-bottom: 2rem;
+}
+
+.sitemap .contact {
+  line-height: 2;
+}
