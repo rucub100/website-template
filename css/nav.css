@@ -1,23 +1,41 @@
 .logo-icon {
-  width: 2rem;
-  height: 2rem;
-  background-color: gray;
-  margin: 0 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: gray;
+    margin: 0 1rem;
 }
 
 .logo-text {
-  font-size: 200%;
-  flex-grow: 1;
-  margin: 0 1rem;
+    font-size: 200%;
+    flex-grow: 1;
+    margin: 0 1rem;
 }
 
 #menu {
-  padding: 1rem 1rem calc(1rem - 4px) 1rem;
+    padding: 1rem 1rem calc(1rem - 4px) 1rem;
 }
 
-.menu-bar {
-  width: 25px;
-  height: 3px;
-  margin-bottom: 4px;
-  background: black;
+.menu-bar-1,
+.menu-bar-2,
+.menu-bar-3 {
+    width: 25px;
+    height: 3px;
+    margin-bottom: 4px;
+    background: white;
+    transition: 200ms;
+}
+
+.open .menu-bar-1 {
+    margin: 0;
+    transform: translate(0px, 3px) rotate(225deg);
+}
+
+.open .menu-bar-2 {
+    margin: 0;
+    opacity: 0;
+}
+
+.open .menu-bar-3 {
+    margin: 0;
+    transform: translate(0px, -3px) rotate(135deg);
 }

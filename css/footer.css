@@ -1,14 +1,14 @@
 .logo-icon-footer {
-  width: 6rem;
-  height: 6rem;
-  background-color: gray;
-  margin: 1rem;
-  align-self: center;
+    width: 6rem;
+    height: 6rem;
+    background-color: gray;
+    margin: 1rem;
+    align-self: center;
 }
 
 .legal-container {
-  margin: 1rem 0;
-  align-self: center;
+    margin: 1rem 0;
+    align-self: center;
 }
 
 .footer a,
@@ -16,16 +16,16 @@
 .footer a:visited,
 .footer a:active,
 .footer span {
-  text-decoration: none;
-  outline: none;
-  color: inherit;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
 }
 
 .footer a:hover {
-  color: white;
+    color: white;
 }
 
 .copyright {
-  font-weight: 100;
-  margin-top: 1rem;
+    font-weight: 100;
+    margin-top: 1rem;
 }
