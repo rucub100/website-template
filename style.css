@@ -153,6 +153,18 @@ section {
 
 /* 640px / 16px/em = 40em */
 @media screen and (min-width: 40em) {
+    #mobile-nav {
+        display: none;
+    }
+
+    .aside {
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+    }
+
+    .aside .column {
+        min-width: 30ch;
+    }
 }
 
 /* 1024px / 16px/em = 64em */
