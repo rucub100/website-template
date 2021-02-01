@@ -132,8 +132,11 @@ body.open .header {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     padding: 1rem;
+    margin-bottom: 4rem;
     box-shadow: 1px 1px 4px lightgray;
 }
 
@@ -155,6 +158,14 @@ section {
     section {
         width: 90%;
     }
+
+    article {
+        flex: 1;
+    }
+
+    article:not(:last-of-type) {
+        margin-right: 2rem;
+    }
 }
 
 /* 1024px / 16px/em = 64em */
@@ -165,6 +176,7 @@ section {
     }
 
     section {
+        flex-direction: row;
         width: 85%;
     }
 }
