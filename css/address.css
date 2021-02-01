@@ -1,3 +1,21 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-item {
+    flex: 1;
+}
+
+.contact-item > img {
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+.contact-item:first-of-type {
+    margin: 0 0 2rem 0;
+}
+
 .address input[type="text"],
 .address select,
 .address textarea {
@@ -22,4 +40,16 @@
 
 #message {
     min-height: 20vh;
+}
+
+/* 1024px / 16px/em = 64em */
+@media screen and (min-width: 64em) {
+    .contact {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .contact-item:first-of-type {
+        margin: 0 2rem 0 0;
+    }
 }
