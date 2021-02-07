@@ -169,7 +169,7 @@ section {
 }
 
 /* 1024px / 16px/em = 64em */
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 65em) {
     .header-content {
         min-height: 4rem;
         width: 85%;
@@ -182,7 +182,7 @@ section {
 }
 
 /* 1280px / 16px/em = 80em */
-@media screen and (min-width: 80em) {
+@media screen and (min-width: 81em) {
     .header-content {
         width: 75%;
         max-width: 80em;
@@ -195,7 +195,7 @@ section {
 }
 
 /* 1920px / 16px/em = 120em */
-@media screen and (min-width: 120em) {
+@media screen and (min-width: 121em) {
     .header-content {
         min-height: 5rem;
         width: 80em;
